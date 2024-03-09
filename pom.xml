@@ -59,6 +59,12 @@
     </build>
 
     <dependencies>
+	<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version> <!-- Choose the latest version compatible with JDK 21 -->
+            <scope>provided</scope> <!-- Lombok is provided at compile time but not packaged in the final JAR -->
+        </dependency>
 
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
